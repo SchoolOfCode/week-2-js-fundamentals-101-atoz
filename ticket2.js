@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // ### **Temperature Display for a Gym's Sauna**
 
 // A local gym, FitLife, is looking to enhance their sauna experience based on member feedback. They are a unique gym, with a 50:50 British:American ratio of members 🤷‍♂️. They observed members using the facilities, and found that they stayed on average only 1 minute and 6 seconds inside the sauna (not what they expected), and they were keen to increase this as soon as possible. They conducted a survey to understand how they could improve, and here's some of the comments:
@@ -71,3 +72,24 @@ console.log(toggleTemperatureDisplay());
   }
 
 */
+=======
+//Develop a JavaScript function `displayTemperatureInCelsius` 
+//that takes in a numerical Fahrenheit temperature reading
+// and converts it to Celsius, returning the number representing the Celsius value.
+
+function displayTemperatureInCelsius() {
+
+}
+
+//Create a function `toggleTemperatureDisplay`
+
+function toggleTemperatureDisplay() {
+    
+
+}
+// that returns either Celsius or Fahrenheit
+// depending on which was the last returned (if the last value returned was Fahrenheit, then you’ll want to return Celsius and vice versa).
+// Start with a default of the last returned format being Celsius.
+
+
+>>>>>>> 3a2681f99652b1a7a4bd1b458c1c0252cf225c7b
