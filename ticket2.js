@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 // ### **Temperature Display for a Gym's Sauna**
 
 // A local gym, FitLife, is looking to enhance their sauna experience based on member feedback. They are a unique gym, with a 50:50 British:American ratio of members 🤷‍♂️. They observed members using the facilities, and found that they stayed on average only 1 minute and 6 seconds inside the sauna (not what they expected), and they were keen to increase this as soon as possible. They conducted a survey to understand how they could improve, and here's some of the comments:
@@ -28,21 +27,21 @@ Implement another function `displayTemperatureInFahrenheit` that performs the in
 <summary>MVP 3</summary>*/
 
 function displayTemperatureInCelsius(fahrenheit) {
-    return (fahrenheit - 30) / 2 ;
+  return (fahrenheit - 30) / 2 ;
 }    
 
 console.log(displayTemperatureInCelsius(60));
 
 function displayTemperatureInFahrenheit(celsius) {
-    return celsius * 2 + 30;
+  return celsius * 2 + 30;
 }    
 
 console.log(displayTemperatureInFahrenheit(15));
 
-let = ;
+let = temperatureUnit = "celsius";
 
 function toggleTemperatureDisplay() {
-    return displayTemperatureInCelsius(60);
+  return displayTemperatureInCelsius(60);
 }
 
 console.log(toggleTemperatureDisplay());
@@ -53,43 +52,22 @@ console.log(toggleTemperatureDisplay());
 
 //  </details> */}
 /*function toggleTemperatureDisplay() {
-    // Closure to maintain the state of the last returned temperature format
-    let lastFormat = "Celsius"; // Default to Celsius
-    return function() {
-      // Toggle the format
-      lastFormat = lastFormat === "Celsius" ? "Fahrenheit" : "Celsius";
-      return lastFormat;
-    };
-  }
-  // Usage example
-  const toggle = toggleTemperatureDisplay();
-  
-  for (let index = 0; index < 10; index++) {
-    console.log(toggle()); // "Fahrenheit" (toggles from default "Celsius")
-    // console.log(toggle()); // "Celsius"
-    // console.log(toggle()); // "Fahrenheit"
-    // console.log(toggle());
-  }
+  // Closure to maintain the state of the last returned temperature format
+  let lastFormat = "Celsius"; // Default to Celsius
+  return function() {
+    // Toggle the format
+    lastFormat = lastFormat === "Celsius" ? "Fahrenheit" : "Celsius";
+    return lastFormat;
+  };
+}
+// Usage example
+const toggle = toggleTemperatureDisplay();
+
+for (let index = 0; index < 10; index++) {
+  console.log(toggle()); // "Fahrenheit" (toggles from default "Celsius")
+  // console.log(toggle()); // "Celsius"
+  // console.log(toggle()); // "Fahrenheit"
+  // console.log(toggle());
+}
 
 */
-=======
-//Develop a JavaScript function `displayTemperatureInCelsius` 
-//that takes in a numerical Fahrenheit temperature reading
-// and converts it to Celsius, returning the number representing the Celsius value.
-
-function displayTemperatureInCelsius() {
-
-}
-
-//Create a function `toggleTemperatureDisplay`
-
-function toggleTemperatureDisplay() {
-    
-
-}
-// that returns either Celsius or Fahrenheit
-// depending on which was the last returned (if the last value returned was Fahrenheit, then you’ll want to return Celsius and vice versa).
-// Start with a default of the last returned format being Celsius.
-
-
->>>>>>> 3a2681f99652b1a7a4bd1b458c1c0252cf225c7b
